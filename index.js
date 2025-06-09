@@ -48,6 +48,6 @@ server.delete("/user/:id", async(req, res) => {
    res.send(result); 
 });
 
-server.listen(3000, () => {
+server.listen(8000, () => {
   console.log("서버 실행됨");
 });
